@@ -90,7 +90,6 @@ nav:
 - Home: index.md
 - Text:
   - Overview: text/index.md
-  - Streaming Recipe Generation: text/mkdocs-testing.md
   - Simple text generation: text/simple-text-generation.md
   - Streaming text: text/streaming-text.md
   - System prompt: text/system-prompt.md
