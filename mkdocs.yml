@@ -44,6 +44,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   icon:
+    logo: material/robot
+    favicon: material/robot
     repo: fontawesome/brands/github
 
 # Extensions
