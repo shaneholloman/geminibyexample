@@ -1,0 +1,82 @@
+docs_dir: docs
+site_dir: site
+markdown_extensions:
+- pymdownx.highlight
+- pymdownx.superfences
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- admonition
+- pymdownx.details
+- attr_list
+- md_in_html
+nav:
+- Home: index.md
+- Text:
+  - Overview: text/index.md
+  - Streaming cat facts: text/stream-test.md
+  - Streaming cat facts: text/sheesh-more-tests.md
+  - Streaming cat facts: text/mkdocs-yet-more-testing.md
+  - 'Multi-turn Chat: Cooking Recipe': text/mkdocs-more-testing.md
+  - Streaming Recipe Generation: text/mkdocs-testing.md
+  - Simple text generation: text/simple-text-generation.md
+  - Streaming text: text/streaming-text.md
+  - System prompt: text/system-prompt.md
+  - Reasoning models: text/reasoning-models.md
+  - Structured output: text/structured-output.md
+- Images:
+  - Overview: images/index.md
+  - Image question answering: images/image-question-answering.md
+  - Image generation (Gemini and Imagen): images/image-generation-gemini-and-imagen.md
+  - Edit an image: images/edit-an-image.md
+  - Bounding boxes: images/bounding-boxes.md
+  - Image segmentation: images/image-segmentation.md
+- Audio:
+  - Overview: audio/index.md
+  - Audio question answering: audio/audio-question-answering.md
+  - Audio transcription: audio/audio-transcription.md
+  - Audio summarization: audio/audio-summarization.md
+- Video:
+  - Overview: video/index.md
+  - Video question answering: video/video-question-answering.md
+  - Video summarization: video/video-summarization.md
+  - Video transcription: video/video-transcription.md
+  - YouTube video summarization: video/youtube-video-summarization.md
+- PDFs and other data types:
+  - Overview: pdfs-and-other-data-types/index.md
+  - PDF and CSV data analysis and summarization: pdfs-and-other-data-types/pdf-and-csv-data-analysis-and-summarization.md
+  - Translate documents: pdfs-and-other-data-types/translate-documents.md
+  - Extract structured data from a PDF: pdfs-and-other-data-types/extract-structured-data-from-a-pdf.md
+- Agentic behaviour:
+  - Overview: agentic-behaviour/index.md
+  - Function calling & tool use: agentic-behaviour/function-calling-tool-use.md
+  - Code execution: agentic-behaviour/code-execution.md
+  - Model Context Protocol: agentic-behaviour/model-context-protocol.md
+  - Grounded responses with search tool: agentic-behaviour/grounded-responses-with-search-tool.md
+- Token counting & context windows:
+  - Overview: token-counting-context-windows/index.md
+  - Model context windows: token-counting-context-windows/model-context-windows.md
+  - Counting chat tokens: token-counting-context-windows/counting-chat-tokens.md
+  - Calculating multimodal input tokens: token-counting-context-windows/calculating-multimodal-input-tokens.md
+  - Context caching: token-counting-context-windows/context-caching.md
+- Miscellaneous:
+  - Overview: miscellaneous/index.md
+  - Rate limits and retries: miscellaneous/rate-limits-and-retries.md
+  - Concurrent requests and generation: miscellaneous/concurrent-requests-and-generation.md
+  - Embeddings generation: miscellaneous/embeddings-generation.md
+  - Safety settings and filters: miscellaneous/safety-settings-and-filters.md
+  - LiteLLM: miscellaneous/litellm.md
+plugins:
+- search
+site_description: Learn the Gemini API through annotated examples
+site_name: Gemini by Example
+theme:
+  features:
+  - content.code.copy
+  - navigation.instant
+  - navigation.tracking
+  - navigation.indexes
+  - navigation.top
+  name: material
+  palette:
+    accent: indigo
+    primary: indigo

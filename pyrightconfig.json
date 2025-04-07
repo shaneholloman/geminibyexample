@@ -1,0 +1,16 @@
+{
+  "include": [
+    "convert_to_mkdocs.py",
+    "migrate_to_mkdocs.py",
+    "test_conversion.py"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    ".venv"
+  ],
+  "reportMissingImports": true,
+  "reportMissingModuleSource": false,
+  "pythonVersion": "3.12",
+  "typeCheckingMode": "basic"
+}
